@@ -1,0 +1,7 @@
+route_number,route_name,source,destination,stop,departure_time,arrival_time,day
+101,Nilambur - Kozhikode,Nilambur,Kozhikode,Edakkara,08:00,10:15,Weekdays
+101,Nilambur - Kozhikode,Nilambur,Kozhikode,Vazhikkadavu,09:15,11:30,Weekdays
+101,Nilambur - Kozhikode,Nilambur,Kozhikode,Perinthalmanna,10:30,12:45,Weekdays
+101,Nilambur - Kozhikode,Nilambur,Kozhikode,Edakkara,12:00,14:15,Weekdays
+101,Nilambur - Kozhikode,Nilambur,Kozhikode,Vazhikkadavu,14:15,16:30,Weekdays
+101,Nilambur - Kozhikode,Nilambur,Kozhikode,Perinthalmanna,16:30,18:45,Weekdays

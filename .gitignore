@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime data
+*.db
+uploads/*
+processed/*
+!processed/.gitkeep
+
+# Local environment
+.env
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
