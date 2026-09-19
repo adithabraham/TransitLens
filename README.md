@@ -37,7 +37,7 @@ Install Tesseract separately and ensure `tesseract.exe` is on PATH. On Windows, 
 ## How OCR works
 
 1. The upload is stored with a generated prefix and a sanitized original filename.
-2. Images are loaded directly; PDFs are rendered into 250 DPI pages.
+2. Images are loaded directly; PDFs are converted into 250 DPI pages.
 3. OpenCV preprocesses each page for readability.
 4. Tesseract returns text; `utils/parser.py` detects routes and time pairs.
 5. Parsed records are stored as a route plus schedule rows.
