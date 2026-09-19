@@ -2,8 +2,6 @@
 
 TransitLens is a functional Flask prototype that turns printed public-transport timetables into searchable, verifiable structured data.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/adithabraham/TransitLens)
-
 ## Features
 
 - JPG, JPEG, PNG, and PDF upload with validation and drag and drop
@@ -27,12 +25,6 @@ python app.py
 ```
 
 Open http://127.0.0.1:5000.
-
-## Deploy Online
-
-GitHub stores the source code but does not run Flask, OCR, or SQLite applications as a website. Use the **Deploy to Render** button above to deploy this repository as a live web service. Render reads `render.yaml` and the `Dockerfile`, installs Flask dependencies, Tesseract OCR, and Poppler, and provides a public URL.
-
-The free service uses temporary storage, so uploaded files and the SQLite database can be reset when the service restarts. For permanent production data, attach persistent storage and move the database to PostgreSQL or another managed database.
 
 ### Tesseract OCR
 
