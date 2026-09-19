@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: transitlens
+    runtime: docker
+    plan: free
+    healthCheckPath: /
